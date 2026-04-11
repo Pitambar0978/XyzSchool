@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF8pOwHWHrUrenEQmKkYkZVu1N__LGCL6FAg&s);
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+.main{
+    display: flex;
+    margin:20px 0px 0px 535px ; 
+}
+.main img{
+    width: 90px;
+    height: 90px;
+}
+.main p{
+    margin: 7px 0px 0px 12px;
+    font-size: 2rem;
+    color: #2c5aa2;
+    font-weight: bold;
+    width: 450px;
+}
+.main p::after{
+    content:"XYZ Board, Established in 1990." ;
+    color: rgb(7, 7, 7);
+    font-size: 1.5rem;
+}
+.form{
+    background-color: #f2f4f7;
+    margin: 30px 150px 20px 150px;
+    border-radius: 8px;
+}
+#head h1{
+    background: #2c5aa2;;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+}
+form{
+    border: 1px solid rgb(229, 223, 223);
+    box-shadow: 5px 5px 5px rgb(229, 223, 223);
+    margin: 12px;
+    border-radius: 8px;
+    padding:0px 20px 0px 20px;
+}
+#student{
+    display: flex;
+}
+#student h3{
+    margin:20px 10px 10px 10px;
+    color:#2c5aa2;
+}
+#student #line{
+    width:80%;
+    height: 1px;
+    background-color: rgb(127, 129, 131);
+    margin-top: 32px;
+}
+#detail, .photo #detail{
+    display: grid;
+}
+#detail span, .photo #detail span{
+    display: flex;
+    padding: 10px;
+}
+#detail label, .photo #detail label{
+    width: 150px;
+    margin-top: 10px;
+}
+#detail input, .photo #detail input{
+    padding: 10px;
+    width:300px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid rgb(128, 127, 127);
+}
+#radio input{
+    width: 20px;
+    height: 15px;
+    margin-top: 10px;
+}
+#radio #ra1{
+    margin-left: 180px;
+}
+.gap{
+    margin-bottom: 30px;
+}
+#check input{
+    margin:20px 0px 20px 40px;
+}
+.photo{
+    display: flex;
+    gap: 200px;
+}
+.photo #detail input{
+    padding: 10px;
+    width:300px;
+    height: 18px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid rgb(128, 127, 127);
+}
+.photo #add textarea{
+    padding: 10px;
+    width:400px;
+    height: 88px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid rgb(128, 127, 127);
+    margin: 0px 0px 20px 20px;
+}
+.photo #upload{
+    background-color: rgb(199, 194, 194);
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    height: 205px;
+}
+.photo #upload h3{
+    color:#46628f;
+    text-align: center;
+} 
+.photo #upload img{
+    width: 100px;
+    margin: 20px 0px 20px 50px;
+}
+.photo #upload input{
+    margin-left: 10px;
+}
+.photo #upload input[type="file"]::file-selector-button{
+    background-color: rgb(199, 194, 194);
+    border: 1px solid rgb(133, 128, 128);
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+}
+button{
+    background-color: #2c5aa2;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    width: 170px;
+    margin:10px 0px 20px 45%;
+    color: white;
+    font-size: 1.2rem;
+    cursor: wait;
+}
+.footer{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    body{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF8pOwHWHrUrenEQmKkYkZVu1N__LGCL6FAg&s);
+        background-repeat: no-repeat;
+        background-size: 190% 120%;
+    }
+    
+    .main img{
+        width: 80px;
+        height: 80px;
+        margin-left: -450px;
+    }
+    .form{
+        width: 500px;
+        margin-left: 18px;
+    }
+    .form #head h1{
+        font-size: 1.3rem;
+    }
+    #student h3{
+        font-size: 1rem;
+    }
+    #student #line{
+        width: 60%;
+    }
+    #detail span{
+        display: grid;
+    }
+    #check input{
+        margin-left: 8px;
+        width: 20px;
+    }
+    #check label{
+        font-size: .7rem;
+    }
+    .photo{
+        flex-direction: column;
+    }
+    .photo #detail span{
+        display: grid;
+    }
+    .photo #add textarea{
+        width: 300px;
+        margin-left: 10px;
+    }
+    .photo #upload{
+        margin: -170px 0px 20px 80px;
+    }
+    button{
+        margin-left: 30%;
+    }
+    .footer{
+        margin-left: 30%;
+    }
+}

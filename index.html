@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ School, Address</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="/IMAGES/logo.jpg" type="image/x-icon">
+    <style>
+        .class{
+            background-color: white;
+            width: 100px;
+            height: 100px;
+            margin: 15% 0px 0px 45%;
+            border-right: none;
+            border-radius: 50%;
+            animation: rotate 2s infinite linear;
+        }
+        @keyframes rotate {
+            0%{
+                transform: rotate(0deg);
+                border-top: 5px solid red;
+                border-left: 5px solid red;
+                border-bottom: 5px solid red;
+            }
+            25%{
+                 transform: rotate(90deg);
+                border-top: 5px solid yellow;
+                border-left: 5px solid yellow;
+                border-bottom: 5px solid yellow;
+            }
+            50%{
+                 transform: rotate(180deg);
+                border-top: 5px solid aqua;
+                border-left: 5px solid aqua;
+                border-bottom: 5px solid aqua;
+            }
+            75%{
+                transform: rotate(270deg);
+                border-top: 5px solid blue;
+                border-left: 5px solid blue;
+                border-bottom: 5px solid blue;
+            }
+            100%{
+                transform: rotate(360deg);
+                border-top: 5px solid green;
+                border-left: 5px solid green;
+                border-bottom: 5px solid green;
+            }
+        }
+        p{
+            text-align: center;
+            font-size: 20px;
+            color: rgb(122, 120, 120);
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="class"></div>
+    <p>Wait While Loading............</p>
+    
+    <script src="/JS/loader.js"></script>
+</body>
+</html>

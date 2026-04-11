@@ -1,0 +1,564 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: rgb(80, 75, 75);
+    height: auto;
+    width: 100%;
+    display: flex;
+    position: fixed;
+}
+#logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+#schname{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 12px 0px 0px 20px;
+    width: 400px;
+}
+#contact{
+    margin: 5px 0px 0px 100px;
+    display:grid;
+    font-size: 1.2rem;
+}
+#contact a{
+    color: rgb(251, 242, 242);
+    text-decoration: none;
+    margin: 5px 0px;
+}
+#icon{
+    color: rgb(27, 28, 27);
+}
+#navlinks{
+    display: flex;
+    margin: 20px 0px 0px 130px;
+    gap: 18px;
+    font-size: 1.7rem;
+}
+#navlinks a{
+    color: thistle;
+    text-decoration: none;
+}
+#navlinks a:hover, #icons:hover{
+    color:rgb(8, 186, 88);
+    text-decoration: underline;
+}
+.bigimage img{
+    margin-left: 2px;
+    width: 99%;
+    height: 500px;
+    border: 5px dashed black;
+}
+.new{
+    display: flex;
+    top: 20px;
+    left: 20px;
+}
+#flash{
+    text-align: right;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    width: 200px;
+    background-color: red;
+}
+#marquee{
+    background-color:blue;
+    font-weight: bolder;
+    font-size: 1.8rem; 
+    color: white;
+}
+#gif{
+    width: 30px;
+}
+.box{
+    background-color: rgb(241, 241, 241);
+    height: 58vh;
+    width: 100%;
+    display: none;
+}
+.box1{
+    display: flex;
+    gap: 30px;
+    margin: 9px 0px 0px 290px;
+}
+#boxs1{
+    width: 220px;
+    height: 130px;
+    background-color: rgb(63, 13, 13);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+#boxs2{
+    width: 220px;
+    height: 130px;
+    background-color: rgb(201, 14, 14);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+#boxs3{
+    width: 220px;
+    height: 130px;
+    background-color: rgb(179, 9, 88);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+#boxs4{
+    width: 220px;
+    height: 130px;
+    background-color: orange;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+#boxs1:hover, #boxs2:hover, #boxs3:hover, #boxs4:hover{
+    height: 139px;
+    border: 1px solid rgb(60, 58, 58);
+}
+.box2{
+    display: flex;
+    gap: 30px;
+    margin: 40px 0px 0px 290px;
+}
+#boxs5{
+    width: 220px;
+    height: 130px;
+    background-color:rgb(5, 72, 72);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+}
+#boxs6{
+    width: 220px;
+    height: 130px;
+    background-color:blueviolet;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+}
+#boxs7{
+    width: 220px;
+    height: 130px;
+    background-color: rgb(12, 89, 203);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+}
+#boxs8{
+    width: 220px;
+    height: 130px;
+    background-color: green;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+}
+#boxs5:hover, #boxs6:hover, #boxs7:hover, #boxs8:hover{
+    height: 139px;
+    border: 1px solid rgb(60, 58, 58); 
+}
+.box1 a, .box2 a{
+    text-decoration: none;
+    color: white;
+}
+.aboutnotice{
+    background-color: rgb(247, 244, 244);
+    display: none;
+}
+#about{
+    width: 55%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 90px;
+}
+#about h1{
+    color: rgb(2, 36, 87);  
+}
+#about p{
+    margin-top: 20px;
+}
+#read{
+    background-color: orangered;
+    border-radius: 20px;
+    width: 20%;
+    height: 6vh;
+    margin-top: 100px;
+    border:none;
+    transition: 0.5s;
+}
+#read a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+#notice{ 
+    width: 25%;
+    height: 50vh;
+    margin-left: 100px;
+    background-color:blue ;
+    border-radius: 20px;
+}
+#notice h1{
+    color: rgb(227, 229, 232);
+    font-size: 2.9rem;
+    height: 13vh;
+    margin: 19px 0px 0px 30px;
+}
+#notice ul{
+    width: 80%;
+    height: 18vh;
+    margin-left: 50px;
+    font-size: 1.2rem;
+    color: white;
+}
+#notice li{
+    margin-top: 15px;
+}
+#more{
+    background-color: orangered;
+    border-radius: 20px;
+    width: 40%;
+    height: 6vh;
+    margin: 45px 0px 0px 40px;
+    border: none;
+    transition: 0.5s;
+}
+#more a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+#read:hover, #more:hover{
+    background-color:green;
+    cursor: pointer;
+}
+.people{
+     display: none;
+     justify-content: center;
+     gap: 90px;
+     margin-top: 100px;
+}
+#chairman, #director, #principal{
+    border: 2px solid rgb(252, 248, 248);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    height: 75vh;
+    border-radius: 15px;
+}
+#chairman img, #director img, #principal img{
+    width: 350px;
+    height: 220px;
+}
+#chairman h2, #director h2, #principal h2{
+    text-align: center;
+    margin-top: 10px;
+}
+#chairman p, #director p, #principal p{
+    margin: 20px;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: rgb(51, 50, 49);
+}
+#chairman a, #director a, #principal a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:orangered;
+    font-weight: bolder;
+    margin: 20px 0px 0px 130px;
+}
+#chairman:hover, #director:hover, #principal:hover{
+    transform: scale(1.1);
+}
+#chairman a:hover, #director a:hover, #principal a:hover{
+    color: blue;
+}
+.infrastructure{
+    margin-top: 50px;
+    background-color: blue;
+    height: 75vh;
+    display: none;
+}
+ #ourschool h2{
+      font-size:2.8rem;
+      color: white;
+      margin-left: 100px; 
+ }
+ #ourschool p{
+     font-size:1.3rem;
+      color: white;
+      margin-left: 100px;
+      margin-top: 20px; 
+      width: 50%;
+ }
+ .facility{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ #labs, #library, #sports, #music{
+    background-color: white;
+    width: 300px;
+    height: 70vh;
+    margin-top: 50px;
+    border-radius: 5px;
+ }
+ #labs img, #library img, #sports img, #music img{
+     width: 180px;
+     height: 180px;
+     margin: 20px 0px 0px 50px;
+     border-radius: 50%;
+ }
+ #labs h2, #library h2, #sports h2, #music h2{
+     font-weight: bold;
+     color: blue;
+     margin: 20px 0px 0px 35px;
+ }
+ #labs p, #library p, #sports p, #music p{
+     font-size: 1.3rem;
+     margin: 20px 0px 40px 20px;
+     width: 260px;
+ }
+ #labs a, #library a, #sports a, #music a{
+    text-decoration: none;
+    color: blue;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 30px;
+ }
+ #labs:hover,#library:hover, #sports:hover, #music:hover{
+    background-color:brown;
+    color: white;
+ }
+ #labs a:hover,#library a:hover, #sports a:hover, #music a:hover{
+    color: white;
+ }
+ 
+ .foot{
+    display:none;
+    margin-top: 320px;
+    background-color: blue;
+    justify-content: space-evenly;
+ }
+ #school{
+    width: 30%;
+ }
+ #school h2, #academic h2, #information h2, #enquery h2 {
+    font-size: 2rem;
+    color: white;
+    margin-top: 70px;
+ }
+ #school p, #enquery p{
+    color: white;
+    margin-top:30px;
+    font-size: 1.2rem;
+ }
+ #school h3{
+    color: white;
+    margin-top: 60px;
+    font-size: 1.2rem;
+ }
+ #follow{
+    font-size: 2rem;
+    color:red;
+    margin-left: 20px;
+    margin-bottom: 20px;
+ }
+ #academic ul, #information ul{
+    margin-top: 20px;
+    color: white;
+ }
+ #academic li, #information li{
+    margin-top: 10px;
+ }
+ #academic a, #information a, #enquery a{
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+ }
+ #academic a:hover, #information a:hover, #enquery a:hover{
+    color: orangered;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+@media (max-width:768px){
+    .nav{
+        flex-wrap: wrap;
+    }
+     #schname{
+        width: 400px;
+    }
+    .nav #contact{
+        display: flex;
+        gap:50px;
+        font-size: .9rem;
+        margin-left: 100px;
+    }
+    .nav #navlinks{
+        margin: 10px 0px 10px 50px;
+        font-size: 1.2rem;
+    }
+    .bigimage{
+        width: 150%;
+    }
+    .new{
+        width: 150%;
+    }
+    .new #flash{
+        font-size: 1rem;
+        width: 100px;
+        padding-top: 7px;
+    }
+    #marquee{
+        font-size: 1rem;
+        color:white
+    }
+    .box1, .box2{
+        flex-direction: column;
+        margin-left: 150px;
+    }
+    .aboutnotice{
+        flex-direction: column;
+        margin: 1080px 0px 0px 0px;
+        background-color: rgb(205, 203, 201);
+        width: 150%;
+    }
+    .aboutnotice #about {
+        margin-left: 145px;
+    }
+    .aboutnotice #about h1{
+        padding-top: 20px;
+        font-size: 1.8rem;
+    }
+    .aboutnotice #about p{
+        font-size: 1.1rem;
+        text-align: justify;
+        font-weight: normal;
+    }
+    .aboutnotice #about #read{
+        width: 150px;
+        border: none;
+        margin: 20px 0px 0px 90px;
+    }
+    .aboutnotice #about #read a{
+        font-size: .9rem;
+    }
+    .aboutnotice #notice{
+        width: 400px;
+        margin: 20px 0px 20px 100px;
+    }
+    .aboutnotice #notice #more{
+        border: none;
+        margin-left: 150px;
+    }
+     .aboutnotice #notice #more a{
+        font-size: .9rem;
+     }
+    .people{
+        flex-direction: column;
+        margin-left: 120px;
+    }
+    .infrastructure{
+        margin:80px 0px 0px 120px;
+        width: 350px;
+        border-radius: 8px;
+    }
+    .infrastructure #ourschool h2{
+        font-size: 1.3rem;
+        margin-left: 70px;
+    }
+    .infrastructure #ourschool p{
+        text-align: justify;
+        font-size: .9rem;
+    }
+    .infrastructure .facility{
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .infrastructure #labs p, .infrastructure #library p, .infrastructure #sports p, .infrastructure #music p{
+        text-align: justify;
+    }
+    
+    .foot{
+        width:600px;
+        flex-direction: column;
+        margin-top: 1800px;
+    }
+    #school{
+        margin: 20px 50px 0px 150px;
+        width: 400px;
+        font-size: .8rem;
+       
+    }
+    #school h3{
+        margin-top: 0px;
+    }
+    #academic{
+        margin: 20px 50px 0px 200px;
+        width: 400px;
+        text-align: justify;
+    }
+    #information{
+         margin: 20px 50px 0px 200px;
+        width: 400px;
+        text-align: justify;
+    }
+    #enquery{
+         margin: 20px 50px 50px 200px;
+        width: 400px;
+        text-align: justify;
+}
+}

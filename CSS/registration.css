@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF8pOwHWHrUrenEQmKkYkZVu1N__LGCL6FAg&s);
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+.main{
+    display: flex;
+    margin:20px 0px 0px 535px ;
+}
+.main img{
+    width: 90px;
+    height: 90px;
+}
+.main p{
+    margin: 7px 0px 0px 12px;
+    font-size: 2rem;
+    color: blue;
+    font-weight: bold;
+    width: 450px;
+}
+.main p::after{
+    content:"XYZ Board, Established in 1990." ;
+    color: rgb(7, 7, 7);
+    font-size: 1.5rem;
+}
+span{
+    text-align: center;
+}
+#form{
+    margin: 48px 0px 0px 560px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px rgb(224, 79, 79);
+    border-radius: 20px;
+    width: 28%;
+    height:95vh;
+    text-align: center;
+    display: block;
+}
+#form h2{
+    margin: 30px 0px 30px 50px ;
+    color: rgb(9, 9, 9);
+    font-weight: lighter;
+    border:1px solid transparent;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px rgb(141, 141, 141);
+    width: 77%;
+    cursor: not-allowed;
+}
+#info{
+    color: gren;
+}
+#form input, #form select{
+    width: 70%;
+    height: 4vh;
+    margin: 25px 0px 0px 20px ;
+    border-radius: 20px;
+    text-align: center;
+    outline: none;
+    border: 1px solid rgb(164, 160, 160);
+}
+#form input::placeholder{
+    text-align: center;
+}
+#form input:focus, #form select:focus{
+    border: 1px solid blue;
+}
+#fontawesome{
+    font-size: 1.5rem;
+}
+#form option{
+    color: rgb(241, 85, 85);
+}
+#form button{
+    margin: 20px 0px 30px 0px;
+    background-color: rgb(242, 244, 244);
+    border: 1px inset black;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bolder;
+    width: 20%;
+    height: 4vh;
+    outline: none;
+}
+#form button:hover{
+    background-color: rgb(12, 191, 191);
+    color: white;
+    cursor: progress;
+    border: none;
+}
+#form a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 15px 0px 10px;
+}
+#form a:hover{
+    color:orangered;
+    font-weight: bolder;
+}
+footer{
+    text-align: center;
+    margin-top: 78px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    body{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF8pOwHWHrUrenEQmKkYkZVu1N__LGCL6FAg&s);
+        background-repeat: no-repeat;
+        background-size: 190% 120%;
+    }
+    .main img{
+        width: 80px;
+        height: 80px;
+        margin-left: -500px;
+    }
+    span p{
+        margin: 50px 0px 0px 170px;
+    }
+    #form{
+        margin: 20px 0px 0px 70px;
+        width:400px;
+        height: 115vh;
+    }
+    #form h2{
+        font-size: 1.1rem;
+        height: 25px;
+        margin-bottom: 0px;
+    }
+    #form input, #form select{
+        height: 40px;
+    }
+    .footer{
+        margin-left:39%;
+        margin-top: -30px;
+    }
+}

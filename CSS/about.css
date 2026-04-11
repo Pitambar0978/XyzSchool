@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: rgb(80, 75, 75);
+    height: auto;
+    width: 100%;
+    display: flex;
+    position: fixed;
+}
+#logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+#schname{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 12px 0px 0px 20px;
+    width: 400px;
+}
+#contact{
+    margin: 5px 0px 0px 100px;
+    display:grid;
+    font-size: 1.2rem;
+}
+#contact a{
+    color: rgb(251, 242, 242);
+    text-decoration: none;
+    margin: 5px 0px;
+}
+#icon{
+    color: rgb(27, 28, 27);
+}
+#navlinks{
+    display: flex;
+    margin: 20px 0px 0px 130px;
+    gap: 18px;
+    font-size: 1.7rem;
+}
+#navlinks a{
+    color: thistle;
+    text-decoration: none;
+}
+#navlinks a:hover, #icons:hover{
+    color:rgb(8, 186, 88);
+    text-decoration: underline;
+}
+.about{
+    padding: 100px 80px 0px 80px;
+}
+.about h2{
+    font-size: 1.9rem;
+}
+.about p{
+    font-size: 1.3rem;
+    text-align: justify;
+    margin-top: 20px;
+}
+.foot{
+    display:none;
+    margin-top: 20px;
+    background-color:  rgb(49, 49, 81);
+    justify-content: space-evenly;
+}
+#school{
+    width: 30%;
+}
+#school h2, #academic h2, #information h2, #enquery h2 {
+    font-size: 2rem;
+    color: white;
+    margin-top: 70px;
+}
+#school p, #enquery p{
+    color: white;
+    margin-top:30px;
+    font-size: 1.2rem;
+}
+#school h3{
+    color: white;
+    margin-top: 60px;
+    font-size: 1.2rem;
+}
+#follow{
+    font-size: 2rem;
+    color:red;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#academic ul, #information ul{
+    margin-top: 20px;
+    color: white;
+}
+#academic li, #information li{
+    margin-top: 10px;
+}
+#academic a, #information a, #enquery a{
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+#academic a:hover, #information a:hover, #enquery a:hover{
+    color: orangered;
+}
+
+
+
+
+
+ 
+
+@media screen and (max-width:768px) {
+    .nav{
+        flex-wrap: wrap;
+    }
+     #schname{
+        width: 500px;
+    }
+    .nav #contact{
+        display: flex;
+        gap:50px;
+        font-size: .9rem;
+        margin-left: 150px;
+    }
+    .nav #navlinks{
+        margin: 0px 0px 10px 130px;
+        font-size: 1rem;
+    }
+    .about{
+        margin-bottom: 50px;
+    }
+    .about h2{
+        padding: 40px 0px 0px 0px;
+        width: 400px;
+        margin: 0px 0px 0px 0px ;
+    }
+    .about p{
+        width: 400px;
+    }
+    .foot{
+        width:600px;
+        flex-direction: column;
+       
+        margin-top: 0px;
+    }
+    #school{
+        margin: 20px 50px 0px 150px;
+        width: 400px;
+        font-size: .8rem;
+       
+    }
+    #school h3{
+        margin-top: 0px;
+    }
+    #academic{
+        margin: 20px 50px 0px 200px;
+        width: 400px;
+        text-align: justify;
+    }
+    #information{
+         margin: 20px 50px 0px 200px;
+        width: 400px;
+        text-align: justify;
+    }
+    #enquery{
+         margin: 20px 50px 50px 200px;
+        width: 400px;
+        text-align: justify;
+}
+} 

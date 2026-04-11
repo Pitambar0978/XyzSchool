@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: rgb(80, 75, 75);
+    height: auto;
+    width: 100%;
+    display: flex;
+    position: fixed;
+}
+#logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+#schname{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 12px 0px 0px 20px;
+    width: 400px;
+}
+#contact{
+    margin: 5px 0px 0px 100px;
+    display:grid;
+    font-size: 1.2rem;
+}
+#contact a{
+    color: rgb(251, 242, 242);
+    text-decoration: none;
+    margin: 5px 0px;
+}
+#icon{
+    color: rgb(27, 28, 27);
+}
+#navlinks{
+    display: flex;
+    margin: 20px 0px 0px 130px;
+    gap: 18px;
+    font-size: 1.7rem;
+}
+#navlinks a{
+    color: thistle;
+    text-decoration: none;
+}
+#navlinks a:hover, #icons:hover{
+    color:rgb(8, 186, 88);
+    text-decoration: underline;
+}
+#notice{
+    padding:70px 0px 0px 0px ;
+    display: flex;
+    position: relative;
+    z-index: -1;
+}
+#notice h2{
+    font-size: 1.2rem;
+    width: 170px;
+    background-color: red;
+    padding: 2px 20px;
+}
+#notice marquee{
+    background-color: blue;
+    font-size: 1.2rem;
+    color: white;
+}
+.addmission{
+    display: flex;
+    padding:30px 90px 0px 90px ;
+    gap: 90px;
+}
+.addmission #process, .addmission #documents, .addmission #dates{
+    width: 50%;
+    height: 50vh;
+    display: block;
+}
+.addmission #process h3, .addmission #documents h3, .addmission #dates h3{
+    font-size: 1.8rem;
+}
+.addmission #process li, .addmission #documents li, .addmission #dates li{
+    margin: 10px 0px 0px 50px;
+    font-size: 1.2rem;
+}
+.butt{
+    display: flex;
+    gap: 320px;
+    margin: -100px 0px 0px 650px;
+}
+.butt #form button{
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    color: white;
+    transition: 0.5s;
+}
+.butt #form button:hover{
+    background-color: green;
+}
+.foot{
+    display:none;
+    margin-top: 80px;
+    background-color: rgb(49, 49, 81);
+    justify-content: space-evenly;
+}
+#school{
+    width: 30%;
+}
+#school h2, #academic h2, #information h2, #enquery h2 {
+    font-size: 2rem;
+    color: white;
+    margin-top: 70px;
+}
+#school p, #enquery p{
+    color: white;
+    margin-top:30px;
+    font-size: 1.2rem;
+}
+#school h3{
+    color: white;
+    margin-top: 60px;
+    font-size: 1.2rem;
+}
+#follow{
+    font-size: 2rem;
+    color:red;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#academic ul, #information ul{
+    margin-top: 20px;
+    color: white;
+}
+#academic li, #information li{
+    margin-top: 10px;
+}
+#academic a, #information a, #enquery a{
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+#academic a:hover, #information a:hover, #enquery a:hover{
+    color: orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px) {
+    .nav{
+        flex-wrap: wrap;
+    }
+    #schname{
+        width: 500px;
+    }
+    .nav #contact{
+        display: flex;
+        gap:50px;
+        font-size: .9rem;
+        margin-left: 150px;
+    }
+    .nav #navlinks{
+        margin: 0px 0px 10px 130px;
+        font-size: 1rem;
+    }
+    #notice {
+        padding: 130px 0px 0px 0px;
+        width: 640px;
+    }
+    #notice h2{
+        width: 210px;
+        font-size: 1.1rem;
+    }
+    #notice #marq{
+         padding-top: 5px;
+         font-size: 1.1rem;
+    }
+    .addmission{
+        flex-direction: column;
+    }
+    #process h3{
+        width: 300px;
+        margin-left: -50px;
+        margin-right: 0px;
+    }
+    #process li{
+        width: 400px;
+        text-align: justify;
+    }
+    #documents h3 {
+        width: 300px;
+        margin: -80px 0px 0px -50px;
+    }
+    #documents li{
+        width: 500px;
+        text-align: justify;
+    }
+    #dates h3{
+        width: 300px;
+        margin: -280px 0px 0px -50px;
+    }
+    #dates li{
+        width: 300px;
+        text-align: justify;
+    }
+    .butt{
+        flex-direction: column;
+        gap: 50px;
+        margin: -300px 0px 0px 200px;
+        justify-content: center;
+        align-items: center;
+    }
+    .foot{
+        width:640px;
+        margin-top: 100px;
+        flex-direction: column;
+        height: 170vh;
+    }
+    #school{
+        margin: -180px 50px 0px 150px;
+        width: 400px;
+        font-size: .8rem;
+       
+    }
+    #school h3{
+        margin-top: 0px;
+    }
+    #academic{
+        margin: -200px 50px 0px 200px;
+        width: 400px;
+        text-align: justify;
+    }
+    #information{
+         margin: -200px 50px 0px 200px;
+        width: 400px;
+        text-align: justify;
+    }
+    #enquery{
+         margin: -100px 50px 0px 200px;
+        width: 400px;
+        text-align: justify;
+}
+}
