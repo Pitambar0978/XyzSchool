@@ -55,11 +55,39 @@
             color: rgb(122, 120, 120);
             margin-top: 10px;
         }
+        button{
+            background-color: orangered;
+            width: 150px;
+            border: none;
+            border-radius: 8px;
+            padding: 10px;
+            font-size: 1.1rem;
+            color: white;
+            cursor: progress;
+            margin: 220px 0px 0px 85%;
+            transition: 0.5s;
+        }
+        button:hover{
+            background-color: green;
+        }
+
+
+
+
+        @media(max-width:768px){
+            .class{
+                margin: 200px 0px 0px 120px;
+            }
+            button{
+                margin: 150px 0px 0px 120px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="class"></div>
     <p>Wait While Loading............</p>
+    <a href="/HTML/main.html"><button>Cancel Loader.</button></a>
     
     <script src="/JS/loader.js"></script>
 </body>
