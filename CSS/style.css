@@ -467,11 +467,11 @@
         font-size: 1.2rem;
     }
     .bigimage{
-        width: 166%;
+        width: 160%;
         padding-top: 50px;
     }
     .new{
-        width: 166%;
+        width: 160%;
     }
     .new #flash{
         font-size: 1rem;
@@ -555,7 +555,7 @@
     .foot{
         width:600px;
         flex-direction: column;
-        margin-top: 1800px;
+        margin-top: 2200px;
     }
     #school{
         margin: 20px 50px 0px 150px;
