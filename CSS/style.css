@@ -12,34 +12,35 @@
     z-index: 1000;
 }
 #logo{
-    width: 60px;
-    height: 60px;
+    width: 4%;
+    height:4%;
     border-radius: 50%;
-    margin-left: 20px;
-    margin-top: 8px;
+    margin-left: 2%;
+    margin-top: 1%;
 }
 #schname{
     font-size: 1.5rem;
     font-weight: bolder;
-    margin: 12px 0px 0px 20px;
-    width: 400px;
+    margin: 1% 0% 0% 2%;
+    width: 25%;
+    color: aliceblue;
 }
 #contact{
-    margin: 5px 0px 0px 100px;
+    margin: .6% 0 0 5%;
     display:grid;
     font-size: 1.2rem;
 }
 #contact a{
     color: rgb(251, 242, 242);
     text-decoration: none;
-    margin: 5px 0px;
+    margin: 0.6% 0;
 }
 #icon{
     color: rgb(27, 28, 27);
 }
 #navlinks{
     display: flex;
-    margin: 20px 0px 0px 130px;
+    margin: 1.1% 0 0 7%;
     gap: 18px;
     font-size: 1.7rem;
 }
@@ -52,9 +53,9 @@
     text-decoration: underline;
 }
 .bigimage img{
-    margin-left: 2px;
-    width: 99%;
-    height: 500px;
+    margin-left: 0.5%;
+    width: 98%;
+    height: 60vh;
     border: 5px dashed black;
 }
 .new{
