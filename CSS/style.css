@@ -22,13 +22,14 @@
     font-size: 1.5rem;
     font-weight: bolder;
     margin: 1.2% 0% 0% 2%;
-    width: 400px;
+    width: 25%;
     color: thistle;
 }
 #contact{
     margin: 5px 0px 0px 100px;
     display:grid;
     font-size: 1.2rem;
+    width: 15%;
 }
 #contact a{
     color:thistle;
@@ -40,7 +41,7 @@
 }
 #navlinks{
     display: flex;
-    margin: 20px 0px 0px 130px;
+    margin: 20px 0px 0px 0px;
     gap: 18px;
     font-size: 1.7rem;
 }
@@ -294,12 +295,11 @@
 #chairman, #director, #principal{
     border: 2px solid rgb(252, 248, 248);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    width: 350px;
-    height: 75vh;
+    width: 23.2%;
     border-radius: 15px;
 }
 #chairman img, #director img, #principal img{
-    width: 350px;
+    width: 99%;
     height: 220px;
 }
 #chairman h2, #director h2, #principal h2{
@@ -350,7 +350,7 @@
  #labs, #library, #sports, #music{
     background-color: white;
     width: 300px;
-    height: 70vh;
+    height: auto;
     margin-top: 50px;
     border-radius: 5px;
  }
@@ -437,6 +437,21 @@
 
 
 
+
+
+
+
+
+
+
+ @media (max-width:1200px){
+    .bigimage img{
+        width: 150%;
+    }
+    .new #marquee{
+        width: 150%;
+    }
+ }
 
 
 
