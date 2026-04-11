@@ -545,11 +545,17 @@
         text-align: justify;
         font-size: 1.2rem;
         color: black;
-        width: 200px;
+        width: 400px;
+        margin-left: 0px;
     }
     .infrastructure .facility{
         flex-direction: column;
         margin-left: 30px;
+    }
+    .infrastructure .facility #labs, .infrastructure .facility #library, .infrastructure .facility #sports, .infrastructure .facility #music{
+        border: 1px solid rgb(109, 107, 105);
+        height: 80vh;
+        border-radius: 8px;
     }
     .infrastructure #labs p, .infrastructure #library p, .infrastructure #sports p, .infrastructure #music p{
         text-align: justify;
