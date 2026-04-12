@@ -21,6 +21,7 @@
     font-weight: bolder;
     margin: 12px 0px 0px 20px;
     width: 400px;
+    color: thistle;
 }
 #contact{
     margin: 5px 0px 0px 100px;
@@ -111,23 +112,29 @@
 
 
  
-
-@media screen and (max-width:768px) {
-    .nav{
+@media (min-width: 00px) and (max-width: 768px){
+     .nav{
         flex-wrap: wrap;
     }
+    #logo{
+        width: 8%;
+        height: 8%;
+        margin: 10px 0px 0px 50px;
+    }
      #schname{
-        width: 500px;
+        width: 400px;
+        text-align: center;
     }
     .nav #contact{
         display: flex;
         gap:50px;
         font-size: .9rem;
-        margin-left: 150px;
+        margin-left: 100px;
+        width: 100%;
     }
     .nav #navlinks{
-        margin: 0px 0px 10px 130px;
-        font-size: 1rem;
+        margin: 10px 0px 10px 50px;
+        font-size: 1.2rem;
     }
     .about{
         margin-bottom: 50px;
@@ -171,3 +178,74 @@
         text-align: justify;
 }
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* desktop site */
+@media (min-width: 769px) and (max-width: 1024px){
+       .nav{
+        display: flex;
+    }
+    #logo{
+        width: 4%;
+        height: 4%;
+        margin: 10px 0px 0px 50px;
+    }
+     #schname{
+        width: 450px;
+        text-align: center;
+    }
+    .nav #contact{
+        display: grid;
+        gap:10px;
+        font-size: .9rem;
+        margin-left: 50px;
+        width: auto;
+    }
+    .nav #navlinks{
+        margin: 25px 0px 10px 100px;
+        font-size: 1.3rem;
+    }
+        .foot{
+        width:1500px;
+        flex-direction:row;
+        margin-top: -550px;
+    }
+    #school{
+        margin: 20px 50px 0px 50px;
+        width: 300px;
+        font-size: .8rem;
+    }
+    #school h3{
+        margin-top: 0px;
+    }
+    #academic{
+        margin: 20px 10px 0px 30px;
+        width: 400px;
+        text-align: justify;
+    }
+    #information{
+         margin: 20px 10px 0px 30px;
+        width: 400px;
+        text-align: justify;
+    }
+    #enquery{
+         margin: 20px 10px 50px 30px;
+        width: 400px;
+        text-align: justify;
+}
+}
