@@ -644,7 +644,7 @@
         width: auto;
     }
     .nav #navlinks{
-        margin: 10px 0px 10px 20px;
+        margin: 25px 0px 10px 90px;
         font-size: 1.2rem;
     }
     .bigimage{
@@ -656,7 +656,7 @@
     }
     .new #flash{
         font-size: 1rem;
-        width: auto;
+        width: 300px;
         padding: 2px 20px 0px 0px;
     }
     #marquee{
@@ -665,11 +665,11 @@
     }
     .box1, .box2{
         grid-template-columns: repeat(4, 1fr);
-        margin-left: 200px;
+        margin-left: 350px;
     }
     .aboutnotice{
         flex-direction:row;
-        margin: -650px 0px 0px 0px;
+        margin: -820px 0px 0px 0px;
         background-color: rgb(205, 203, 201);
         width: 160%;
     }
@@ -720,10 +720,11 @@
         background-color: white;
     }
     .infrastructure #ourschool {
-         margin:80px 0px 0px 550px;
+         margin:80px 0px 0px 480px;
     }
     .infrastructure #ourschool h2{
         font-size: 1.3rem;
+        width: 100%;
         margin-left: 70px;
         color: black;
     }
@@ -747,12 +748,12 @@
     }
     
     .foot{
-        width:3500px;
+        width:2000px;
         flex-direction:row;
-        margin-top: -200px;
+        margin-top: -550px;
     }
     #school{
-        margin: 20px 50px 0px 150px;
+        margin: 20px 50px 0px 50px;
         width: 400px;
         font-size: .8rem;
     }
@@ -760,17 +761,17 @@
         margin-top: 0px;
     }
     #academic{
-        margin: 20px 50px 0px 200px;
+        margin: 20px 50px 0px 30px;
         width: 400px;
         text-align: justify;
     }
     #information{
-         margin: 20px 50px 0px 200px;
+         margin: 20px 50px 0px 30px;
         width: 400px;
         text-align: justify;
     }
     #enquery{
-         margin: 20px 50px 50px 200px;
+         margin: 20px 50px 50px 30px;
         width: 400px;
         text-align: justify;
 }
