@@ -454,7 +454,7 @@
 
 
  /* Mobile site */
-@media (max-width:1180px){
+@media (max-width:768px){
     .nav{
         flex-wrap: wrap;
     }
@@ -642,7 +642,7 @@
 
 
  /* desktop site */
-@media (max-width:1260px){
+@media (max-width:1200px){
     .nav{
         display: flex;
     }
@@ -687,7 +687,7 @@
         margin-left: 100px;
     }
     .aboutnotice{
-        flex-direction: column;
+        flex-direction: row;
         margin: 380px 0px 0px 0px;
         background-color: rgb(205, 203, 201);
         width: 160%;
