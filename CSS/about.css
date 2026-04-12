@@ -217,7 +217,7 @@
         width: auto;
     }
     .nav #navlinks{
-        margin: 25px 0px 10px 100px;
+        margin: 25px 0px 10px 70px;
         font-size: 1.3rem;
     }
     .about{
@@ -230,7 +230,7 @@
     .about p{
         font-size: 1.3rem;
         text-align: justify;
-        width: 600px;
+        width: 1000px;
     }
     
     .foot{
