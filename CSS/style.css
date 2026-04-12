@@ -644,8 +644,8 @@
         width: auto;
     }
     .nav #navlinks{
-        margin: 25px 0px 10px 90px;
-        font-size: 1.2rem;
+        margin: 25px 0px 10px 100px;
+        font-size: 1.3rem;
     }
     .bigimage{
         width: 160%;
@@ -665,11 +665,11 @@
     }
     .box1, .box2{
         grid-template-columns: repeat(4, 1fr);
-        margin-left: 350px;
+        margin-left: 325px;
     }
     .aboutnotice{
         flex-direction:row;
-        margin: -820px 0px 0px 0px;
+        margin: -750px 0px 0px 0px;
         background-color: rgb(205, 203, 201);
         width: 160%;
     }
@@ -707,10 +707,10 @@
     .people{
         flex-direction:row;
         margin-left: 220px;
-        width: 1000px;
+        width: 1100px;
     }
     #chairman, #director, #principal{
-        width: 1200px;
+        width: 1250px;
         margin-bottom: 20px;
     }
     .infrastructure{
@@ -724,7 +724,7 @@
     }
     .infrastructure #ourschool h2{
         font-size: 1.3rem;
-        width: 100%;
+        width: 1800px;
         margin-left: 70px;
         color: black;
     }
@@ -748,30 +748,30 @@
     }
     
     .foot{
-        width:2000px;
+        width:1500px;
         flex-direction:row;
         margin-top: -550px;
     }
     #school{
         margin: 20px 50px 0px 50px;
-        width: 400px;
+        width: 300px;
         font-size: .8rem;
     }
     #school h3{
         margin-top: 0px;
     }
     #academic{
-        margin: 20px 50px 0px 30px;
+        margin: 20px 10px 0px 30px;
         width: 400px;
         text-align: justify;
     }
     #information{
-         margin: 20px 50px 0px 30px;
+         margin: 20px 10px 0px 30px;
         width: 400px;
         text-align: justify;
     }
     #enquery{
-         margin: 20px 50px 50px 30px;
+         margin: 20px 10px 50px 30px;
         width: 400px;
         text-align: justify;
 }
