@@ -222,10 +222,20 @@
     }
     .about{
         width: 1200px;
-        padding-top: 500px;
+        padding-top: 200px;
     }
+    .about h2{
+        padding: 40px 0px 0px 0px;
+        width: 400px;
+        font-size: 1.6rem;
+    }
+    .about p{
+        font-size: 1.3rem;
+        text-align: justify;
+    }
+    
     .foot{
-        width:1800px;
+        width:1200px;
         flex-direction:row;
         margin-top: 1250px;
     }
