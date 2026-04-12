@@ -218,7 +218,7 @@
     }
     .nav #navlinks{
         margin: 25px 0px 10px 70px;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     .about{
         width: 1200px;
@@ -234,7 +234,7 @@
     }
     
     .foot{
-        width:1200px;
+        width:1400px;
         flex-direction:row;
         margin-top: 1250px;
     }
