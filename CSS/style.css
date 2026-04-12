@@ -437,7 +437,7 @@
 
 
  
-@media (max-width:1200px){
+@media (max-width:1180px){
     .nav{
         flex-wrap: wrap;
     }
@@ -520,7 +520,7 @@
      }
     .people{
         flex-direction: column;
-        margin-left: 50px;
+        margin-left: 150px;
     }
     #chairman, #director, #principal{
         width: 400px;
