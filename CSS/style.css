@@ -436,55 +436,8 @@
 
 
 
-
-
-
-
-
-
-
-
- @media (max-width:900px){
-    .nav{
-        width: auto;
-    }
-    #schname{
-        width: 30%;
-    }
-    #contact{
-        display: grid;
-        margin: 5px 0px 0px 30px;
-    }
-     #navlinks{
-        margin: 10px 0px 10px 30px;
-        font-size: 1.2rem;
-    }
-    .bigimage img{
-        width: 1175px;
-    }
-    .new {
-        width: 1190px;
-    }
-    .new #flash{
-        font-size: 1.5rem;
-        padding: 2px 50px 0px 10px;    
-    }
- }
-
-
-
-
-
-
-
-
-
-
-
-
-
  
-@media (max-width:768px){
+@media (max-width:1200px){
     .nav{
         flex-wrap: wrap;
     }
