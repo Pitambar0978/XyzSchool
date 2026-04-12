@@ -230,6 +230,7 @@
     .about p{
         font-size: 1.3rem;
         text-align: justify;
+        width: 600px;
     }
     
     .foot{
