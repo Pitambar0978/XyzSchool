@@ -665,11 +665,11 @@
     }
     .box1, .box2{
         grid-template-columns: repeat(4, 1fr);
-        margin-left: 100px;
+        margin-left: 200px;
     }
     .aboutnotice{
         flex-direction:row;
-        margin: -100px 0px 0px 0px;
+        margin: -400px 0px 0px 0px;
         background-color: rgb(205, 203, 201);
         width: 160%;
     }
@@ -706,14 +706,14 @@
      }
     .people{
         flex-direction:row;
-        margin-left: 120px;
+        margin-left: 220px;
     }
     #chairman, #director, #principal{
-        width: 600px;
+        width: 1200px;
         margin-bottom: 20px;
     }
     .infrastructure{
-        margin:80px 0px 0px 250px;
+        margin:80px 0px 0px 550px;
         width: 350px;
         border-radius: 8px;
         background-color: white;
@@ -732,8 +732,7 @@
     }
     .infrastructure .facility{
         display: flex;
-        gap: 20px;
-        margin-left: 30px;
+        justify-content: space-evenly;
     }
     .infrastructure .facility #labs, .infrastructure .facility #library, .infrastructure .facility #sports, .infrastructure .facility #music{
         border: 1px solid rgb(109, 107, 105);
@@ -744,9 +743,9 @@
     }
     
     .foot{
-        width:100%;
+        width:6000px;
         flex-direction:row;
-        margin-top: 200px;
+        margin-top: -200px;
     }
     #school{
         margin: 20px 50px 0px 150px;
