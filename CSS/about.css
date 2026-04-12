@@ -220,10 +220,13 @@
         margin: 25px 0px 10px 100px;
         font-size: 1.3rem;
     }
-        .foot{
+    .about{
+        width: 1100px;
+    }
+    .foot{
         width:1500px;
         flex-direction:row;
-        margin-top: -550px;
+        margin-top: 1550px;
     }
     #school{
         margin: 20px 50px 0px 50px;
