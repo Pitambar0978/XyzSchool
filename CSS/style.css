@@ -633,18 +633,18 @@
         margin: 10px 0px 0px 50px;
     }
      #schname{
-        width: 800px;
+        width: 450px;
         text-align: center;
     }
     .nav #contact{
         display: grid;
         gap:10px;
         font-size: .9rem;
-        margin-left: 100px;
+        margin-left: 50px;
         width: auto;
     }
     .nav #navlinks{
-        margin: 10px 0px 10px 0px;
+        margin: 10px 0px 10px 20px;
         font-size: 1.2rem;
     }
     .bigimage{
@@ -669,7 +669,7 @@
     }
     .aboutnotice{
         flex-direction:row;
-        margin: -400px 0px 0px 0px;
+        margin: -650px 0px 0px 0px;
         background-color: rgb(205, 203, 201);
         width: 160%;
     }
@@ -707,16 +707,20 @@
     .people{
         flex-direction:row;
         margin-left: 220px;
+        width: 1000px;
     }
     #chairman, #director, #principal{
         width: 1200px;
         margin-bottom: 20px;
     }
     .infrastructure{
-        margin:80px 0px 0px 550px;
+        margin:80px 0px 0px 150px;
         width: 350px;
         border-radius: 8px;
         background-color: white;
+    }
+    .infrastructure #ourschool {
+         margin:80px 0px 0px 550px;
     }
     .infrastructure #ourschool h2{
         font-size: 1.3rem;
@@ -732,7 +736,7 @@
     }
     .infrastructure .facility{
         display: flex;
-        justify-content: space-evenly;
+        gap: 50px;
     }
     .infrastructure .facility #labs, .infrastructure .facility #library, .infrastructure .facility #sports, .infrastructure .facility #music{
         border: 1px solid rgb(109, 107, 105);
@@ -743,7 +747,7 @@
     }
     
     .foot{
-        width:6000px;
+        width:3500px;
         flex-direction:row;
         margin-top: -200px;
     }
