@@ -222,12 +222,12 @@
     }
     .about{
         width: 1200px;
-        margin-top: 500px;
+        padding-top: 500px;
     }
     .foot{
         width:1800px;
         flex-direction:row;
-        margin-top: 1550px;
+        margin-top: 1250px;
     }
     #school{
         margin: 20px 50px 0px 50px;
