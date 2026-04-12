@@ -441,8 +441,14 @@
     .nav{
         flex-wrap: wrap;
     }
+    #logo{
+        width: 8%;
+        height: 8%;
+        margin: 10px 0px 0px 50px;
+    }
      #schname{
         width: 400px;
+        text-align: center;
     }
     .nav #contact{
         display: flex;
