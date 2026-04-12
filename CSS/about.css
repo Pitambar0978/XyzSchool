@@ -230,11 +230,12 @@
     .about p{
         font-size: 1.3rem;
         text-align: justify;
-        width: 1000px;
+        width: 1200px;
+        row-gap: 30px;
     }
     
     .foot{
-        width:1400px;
+        width:1370px;
         flex-direction:row;
         margin-top: 1250px;
     }
