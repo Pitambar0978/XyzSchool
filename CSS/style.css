@@ -520,10 +520,10 @@
      }
     .people{
         flex-direction: column;
-        margin-left: 190px;
+        margin-left: 50px;
     }
     #chairman, #director, #principal{
-        width: 700px;
+        width: 400px;
         margin-bottom: 20px;
     }
     .infrastructure{
