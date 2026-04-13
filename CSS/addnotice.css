@@ -298,20 +298,23 @@
         font-size: 1.2rem;
     }
     #notice{
-        width: 1400px;
+        width: 1500px;
         padding: 80px 0px 0px 0px;
     }
     #admission{
-        width:1200px;
+        flex-direction: column;
     }
     #process li{
         width: 1500px;
+        padding: 10px;
     }
     #documents li{
         width: 1500px;
+        padding: 10px;
     }
     #dates li{
-        width: 1500px;
+        width: 500px;
+        padding: 10px;
     }
     .butt{
         margin-top: -500px;
