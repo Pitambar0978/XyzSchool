@@ -157,13 +157,13 @@ footer{
     .main img{
         width: 80px;
         height: 80px;
-        margin-left: -500px;
+        margin-left: -300px;
     }
     span p{
-        margin: 50px 0px 0px 170px;
+        margin: 50px 0px 0px 130px;
     }
     #form{
-        margin: 20px 0px 0px 70px;
+        margin: 20px 0px 0px 170px;
         width:400px;
         height: 70vh;
     }
@@ -174,5 +174,8 @@ footer{
     }
     #form input, #form select{
         height: 40px;
+    }
+    button{
+        padding-top:2px;
     }
 }
