@@ -211,7 +211,7 @@
         text-align: justify;
     }
     #documents h3 {
-        width: 300px;
+        width: 500px;
         margin: -80px 0px 0px -50px;
     }
     #documents li{
@@ -223,7 +223,7 @@
         margin: -280px 0px 0px -50px;
     }
     #dates li{
-        width: 300px;
+        width: 400px;
         text-align: justify;
     }
     .butt{
@@ -299,23 +299,25 @@
     }
     #notice{
         width: 1400px;
-        padding: 60px 0px 0px 0px;
+        padding: 80px 0px 0px 0px;
     }
     #admission{
-        width: 800px;
+        width:1200px;
     }
-    #process{
-        width: 500px;
+    #process li{
+        width: 1500px;
     }
-    #documents{
-        width: 500px;
+    #documents li{
+        width: 1500px;
     }
-    #dates{
-        width: 500px;
+    #dates li{
+        width: 1500px;
     }
     .butt{
         margin-top: -500px;
-        margin-left: 50px;
+    }
+    #form{
+        margin-left: 100px;
     }
     
     .foot{
