@@ -75,13 +75,13 @@ span{
 #form button{
     margin: 20px 0px 30px 0px;
     background-color: rgb(242, 244, 244);
-    border: 1px inset rgb(164, 155, 155);
+    border: none;
     border-radius: 20px;
     font-size: 1rem;
     font-weight: bolder;
     width: 20%;
-    height: 4vh;
     outline: none;
+    padding:5px  ;
 }
 #form button:hover{
     background-color: rgb(12, 191, 191);
@@ -160,12 +160,12 @@ footer{
         margin-left: -300px;
     }
     span p{
-        margin: 50px 0px 0px 130px;
+        margin: 50px 0px 0px 90px;
     }
     #form{
-        margin: 20px 0px 0px 170px;
+        margin: 20px 0px 0px 270px;
         width:400px;
-        height: 70vh;
+        height: auto;
     }
     #form h2{
         font-size: 1.1rem;
