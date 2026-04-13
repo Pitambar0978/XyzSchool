@@ -274,7 +274,7 @@
 
 /* desktop site */
 @media (min-width: 769px) and (max-width: 1024px){
-       .nav{
+    .nav{
         display: flex;
     }
     #logo{
@@ -302,7 +302,7 @@
         padding: 80px 0px 0px 0px;
     }
     #notice h3{
-        width: 200px;
+        width: 500px;
     }
     .addmission{
         grid-template-columns: repeat(2, 1fr);

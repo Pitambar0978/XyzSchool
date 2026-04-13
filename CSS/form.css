@@ -247,11 +247,11 @@ button{
     .main img{
         width: 90px;
         height: 90px;
-        margin-left: -450px;
+        margin-left: -300px;
     }
      .form{
-        width: 500px;
-        margin-left: 18px;
+        width: 650px;
+        margin-left: 180px;
     }
     .form #head h1{
         font-size: 1.3rem;
@@ -274,5 +274,8 @@ button{
     }
     .photo{
         flex-direction: column;
+    }
+    #upload{
+        margin: -170px 0px 20px 80px;
     }
 }
