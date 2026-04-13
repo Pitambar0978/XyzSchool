@@ -187,7 +187,7 @@
         font-size: 1.2rem;
     }
     #notice {
-        padding: 130px 0px 0px 0px;
+        padding: 150px 0px 0px 0px;
         width: 640px;
     }
     #notice h2{
@@ -298,15 +298,24 @@
         font-size: 1.2rem;
     }
     #notice{
-        width: 800px;
-        margin-top: 50px;
+        width: 1400px;
+        padding: 60px 0px 0px 0px;
     }
     #admission{
         width: 800px;
     }
+    #process{
+        width: 500px;
+    }
+    #documents{
+        width: 500px;
+    }
+    #dates{
+        width: 500px;
+    }
     .butt{
-        margin-top: -200px;
-        margin-left: -100px;
+        margin-top: -500px;
+        margin-left: 50px;
     }
     
     .foot{
