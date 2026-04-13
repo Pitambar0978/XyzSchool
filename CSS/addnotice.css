@@ -306,7 +306,7 @@
         margin-left: 150px;
     }
     #process, #documents, #dates{
-        margin-top: -100px;
+        margin-bottom: -100px;
     }
     #process li{
         width: 800px;
@@ -323,10 +323,10 @@
        margin-top: -100px;
     }
     .butt{
-        margin-top: -1000px;
+        margin-top: -1400px;
     }
     #form{
-        margin-left: 50px;
+        margin-left: 00px;
     }
     
     .foot{
