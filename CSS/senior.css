@@ -107,8 +107,8 @@ footer{
 
 
 
-
-@media (max-width:768px) {
+ /* mobile site */
+@media (min-width: 00px) and (max-width: 768px){
     body{
         background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF8pOwHWHrUrenEQmKkYkZVu1N__LGCL6FAg&s);
         background-repeat: no-repeat;
@@ -137,5 +137,42 @@ footer{
     }
     .footer{
         margin-left:39%;
+    }
+}
+
+
+
+
+
+
+
+
+/* desktop site */
+@media (min-width: 769px) and (max-width: 1024px){
+    body{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF8pOwHWHrUrenEQmKkYkZVu1N__LGCL6FAg&s);
+        background-repeat: no-repeat;
+        background-size: 190% 120%;
+    }
+    .main img{
+        width: 80px;
+        height: 80px;
+        margin-left: -500px;
+    }
+    span p{
+        margin: 50px 0px 0px 170px;
+    }
+    #form{
+        margin: 20px 0px 0px 70px;
+        width:400px;
+        height: 70vh;
+    }
+    #form h2{
+        font-size: 1.1rem;
+        height: 25px;
+        margin-bottom: 0px;
+    }
+    #form input, #form select{
+        height: 40px;
     }
 }
