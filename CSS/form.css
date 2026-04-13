@@ -275,7 +275,10 @@ button{
     .photo{
         flex-direction: column;
     }
+    .photo #detail span{
+        display: grid;
+    }
     #upload{
-        margin: -170px 0px 20px 80px;
+        margin: -170px 0px 20px 140px;
     }
 }
