@@ -302,11 +302,11 @@
         padding: 80px 0px 0px 0px;
     }
     .addmission{
-        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
         margin-left: 150px;
     }
-    #process, #documents, #dates{
-        margin-bottom: -100px;
+    #process, #documents h3, #dates{
+        margin: -100px;
     }
     #process li{
         width: 800px;
