@@ -304,21 +304,22 @@
     .addmission{
         flex-direction: column;
         gap: 5px;
+        margin-left: 100px;
     }
     #process li{
         width: 800px;
         padding: 10px;
-        text-align: center;
+        margin-top: -100px;
     }
     #documents li{
         width: 800px;
         padding: 10px;
-        text-align: center;
+        margin-top: -100px;
     }
     #dates li{
         width: 500px;
         padding: 10px;
-        text-align: center;
+       margin-top: -100px;
     }
     .butt{
         margin-top: -1000px;
