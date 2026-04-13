@@ -262,9 +262,6 @@ button{
     #student #line{
         width: 60%;
     }
-    #detail span{
-        display: grid;
-    }
     #check input{
         margin-left: 8px;
         width: 20px;
@@ -275,14 +272,11 @@ button{
     .photo{
         flex-direction: column;
     }
-    .photo #detail span{
-        display: grid;
-    }
     #upload{
         margin: -170px 0px 20px 140px;
     }
     button{
-        margin-left: -10px;
+        margin-left: 50px;
     }
     .footer{
         margin-top: 150px;
