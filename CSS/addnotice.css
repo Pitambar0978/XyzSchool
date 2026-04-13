@@ -311,7 +311,7 @@
     }
     #documents{
         margin-top: 580px;
-        margin-left: -500px;
+        margin-left: -450px;
     }
     #documents li{
         width: 400px;
@@ -319,7 +319,7 @@
         margin-top: -100px;
     }
     #dates{
-        margin:0px 20px 0px -110px;
+        margin:0px 20px 0px 20px;
     }
     #dates li{
         width: 400px;
@@ -327,10 +327,10 @@
         margin-top: -100px;
     }
     .butt{
-        margin-top: -1100px;
+        margin-top: -1000px;
         width: 500px;
         display: grid;
-        gap:0px;
+        gap:5px;
     }
     #form{
         margin-left: -20px;
