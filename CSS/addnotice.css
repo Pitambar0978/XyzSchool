@@ -330,7 +330,7 @@
         margin-top: -100px;
     }
     .butt{
-        margin: -950px 0px 0px 1500px;
+        margin: -850px 0px 0px 900px;
         width: 500px;
         display: grid;
         gap:25px;
@@ -339,7 +339,6 @@
         margin-top: 50px;
         width: 500px;
     }
-    
     .foot{
         width:1370px;
         flex-direction:row;
@@ -359,7 +358,7 @@
         text-align: justify;
     }
     #information{
-         margin: 20px 10px 0px 30px;
+        margin: 20px 10px 0px 30px;
         width: 400px;
         text-align: justify;
     }
