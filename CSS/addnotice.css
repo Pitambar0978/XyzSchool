@@ -21,6 +21,7 @@
     font-weight: bolder;
     margin: 12px 0px 0px 20px;
     width: 400px;
+    color: thistle;
 }
 #contact{
     margin: 5px 0px 0px 100px;
@@ -28,7 +29,7 @@
     font-size: 1.2rem;
 }
 #contact a{
-    color: rgb(251, 242, 242);
+    color:thistle;
     text-decoration: none;
     margin: 5px 0px;
 }
@@ -296,4 +297,44 @@
         margin: 25px 0px 10px 70px;
         font-size: 1.2rem;
     }
+    #notice{
+        width: 800px;
+        margin-top: 50px;
+    }
+    #admission{
+        width: 800px;
+    }
+    .butt{
+        margin-top: -200px;
+        margin-left: -100px;
+    }
+    
+    .foot{
+        width:1370px;
+        flex-direction:row;
+        margin-top: 1250px;
+    }
+    #school{
+        margin: 20px 50px 0px 50px;
+        width: 300px;
+        font-size: .8rem;
+    }
+    #school h3{
+        margin-top: 0px;
+    }
+    #academic{
+        margin: 20px 10px 0px 30px;
+        width: 400px;
+        text-align: justify;
+    }
+    #information{
+         margin: 20px 10px 0px 30px;
+        width: 400px;
+        text-align: justify;
+    }
+    #enquery{
+         margin: 20px 10px 50px 30px;
+        width: 400px;
+        text-align: justify;
+}
 }
