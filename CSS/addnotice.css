@@ -319,7 +319,7 @@
         margin-top: -100px;
     }
     #dates{
-        margin:0px 20px 0px 70px;
+        margin:0px 20px 0px 180px;
     }
     #dates li{
         width: 400px;
@@ -327,10 +327,10 @@
         margin-top: -100px;
     }
     .butt{
-        margin-top: -1000px;
+        margin: -1000px 0px 0px 100px;
         width: 500px;
         display: grid;
-        gap:15px;
+        gap:25px;
     }
     #form{
         margin-left: 20px;
