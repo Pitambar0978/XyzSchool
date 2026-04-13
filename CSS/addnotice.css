@@ -301,6 +301,9 @@
         width: 1390px;
         padding: 80px 0px 0px 0px;
     }
+    #notice h3{
+        width: 200px;
+    }
     .addmission{
         grid-template-columns: repeat(2, 1fr);
         margin-left: 20px;
@@ -327,13 +330,13 @@
         margin-top: -100px;
     }
     .butt{
-        margin: -1000px 0px 0px 500px;
+        margin: -950px 0px 0px 1500px;
         width: 500px;
         display: grid;
         gap:25px;
     }
     #form{
-        margin-left: 20px;
+        margin-top: 50px;
         width: 500px;
     }
     
