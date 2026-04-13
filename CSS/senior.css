@@ -160,7 +160,7 @@ footer{
         margin-left: -300px;
     }
     span p{
-        margin: 50px 0px 0px 40px;
+        margin: 50px 0px 0px 2px;
     }
     #form{
         margin: 20px 0px 0px 270px;
@@ -176,9 +176,12 @@ footer{
         height: 40px;
     }
     #form a {
-        margin-bottom: 30px;
+        margin-bottom: 90px;
     }
     button{
         padding-top:2px;
+    }
+    .footer{
+        margin-top: 600px;
     }
 }
