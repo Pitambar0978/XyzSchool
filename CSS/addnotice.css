@@ -305,9 +305,6 @@
         grid-template-columns: repeat(2, 1fr);
         margin-left: 150px;
     }
-    #process, #documents h3, #dates{
-        margin: -100px;
-    }
     #process li{
         width: 800px;
         padding: 10px;
@@ -323,7 +320,7 @@
        margin-top: -100px;
     }
     .butt{
-        margin-top: -1400px;
+        margin-top: 00px;
     }
     #form{
         margin-left: 00px;
