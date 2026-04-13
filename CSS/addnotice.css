@@ -303,24 +303,28 @@
     }
     .addmission{
         flex-direction: column;
+        gap: 5px;
     }
     #process li{
-        width: 1500px;
+        width: 800px;
         padding: 10px;
+        text-align: center;
     }
     #documents li{
-        width: 1500px;
+        width: 800px;
         padding: 10px;
+        text-align: center;
     }
     #dates li{
         width: 500px;
         padding: 10px;
+        text-align: center;
     }
     .butt{
-        margin-top: -500px;
+        margin-top: -1000px;
     }
     #form{
-        margin-left: 100px;
+        margin-left: 50px;
     }
     
     .foot{
