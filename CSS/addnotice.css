@@ -310,8 +310,8 @@
         padding: 10px;
     }
     #documents{
-        margin-top: 500px;
-        margin-left: -200px;
+        margin-top: 580px;
+        margin-left: -400px;
     }
     #documents li{
         width: 400px;
@@ -327,12 +327,13 @@
         margin-top: -100px;
     }
     .butt{
-        margin-top: 00px;
-        width: 200px;
+        margin-top: -500px;
+        width: 500px;
+        display: grid;
     }
     #form{
-        margin-left: -60px;
-        width: 200px;
+        margin-left: -100px;
+        width: 500px;
     }
     
     .foot{
