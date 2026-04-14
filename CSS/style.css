@@ -657,7 +657,7 @@
     }
     .new #flash{
         font-size: 1rem;
-        width: 300px;
+        width: 100px;
         padding: 2px 20px 0px 0px;
     }
     #marquee{

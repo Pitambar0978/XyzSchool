@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ School, Fees Payment</title>
+    <link rel="stylesheet" href="/CSS/fee.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="/IMAGES/logo.jpg" type="image/x-icon">
+</head>
+<body>
+
+<div class="container">
+    <h2>🎓 School Fees Payment</h2>
+
+    <!-- Student Details -->
+    <div class="card">
+        <h4>STUDENT DETAILS</h4>
+
+        <input type="text" id="name" placeholder="Student Name">
+
+        <select id="class">
+            <option value="">Select Class</option>
+            <option value="PRE NURSERY">Pre Nursery</option>
+            <option value="NURSERY">Nursery</option>
+            <option value="KG I">KG I</option>
+            <option value="KG II">KG II</option>
+            <option value="I">I</option>
+            <option value="II">II</option>
+            <option value="III">III</option>
+            <option value="IV">IV</option>
+            <option value="V">V</option>
+            <option value="VI">VI</option>
+            <option value="VII">VII</option>
+            <option value="VIII">VIII</option>
+            <option value="IX">IX</option>
+            <option value="X">X</option>
+            <option value="XI">XI</option>
+            <option value="XII">XII</option>
+        </select>
+
+        <h4>SELECT MONTHS</h4>
+        <div class="months">
+            <button onclick="selectMonth(this)">Jan</button>
+            <button onclick="selectMonth(this)">Feb</button>
+            <button onclick="selectMonth(this)">Mar</button>
+            <button onclick="selectMonth(this)">Apr</button>
+            <button onclick="selectMonth(this)">May</button>
+            <button onclick="selectMonth(this)">Jun</button>
+            <button onclick="selectMonth(this)">Jul</button>
+            <button onclick="selectMonth(this)">Aug</button>
+            <button onclick="selectMonth(this)">Sep</button>
+            <button onclick="selectMonth(this)">Oct</button>
+            <button onclick="selectMonth(this)">Nov</button>
+            <button onclick="selectMonth(this)">Dec</button>
+        </div>
+
+        <div class="summary">
+            <p>Fee per month: ₹2500</p>
+            <p>Months selected: <span id="count">0</span></p>
+            <h3>Total: ₹<span id="total">0</span></h3>
+        </div>
+    </div>
+
+    <!-- Payment Method -->
+    <div class="card">
+        <h4>PAYMENT METHOD</h4>
+
+        <div class="pay" onclick="selectPay(this)">Card</div>
+        <div class="pay" onclick="selectPay(this)">PayPal</div>
+        <div class="pay" onclick="selectPay(this)">UPI</div>
+        <div class="pay" onclick="selectPay(this)">Bank Transfer</div>
+
+        <button class="paybtn" onclick="payNow()">Pay ₹0</button>
+    </div>
+</div>
+
+<script src="/JS/fee.js"></script>
+</body>
+</html>
