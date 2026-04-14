@@ -112,10 +112,10 @@ footer{
     #logo{
         width: 8%;
         height: 8%;
-        margin: 10px 0px 0px 50px;
+        margin: 10px 0px 0px 5px;
     }
      #schname{
-        width: 350px;
+        width: 200px;
         text-align: center;
     }
     .nav #contact{
@@ -131,10 +131,12 @@ footer{
     }
     .view{
         padding: 300px 0px 0px 20px;
-        width: 100px;
     }
-    #list span{
-        width: 300px;
+    .view h2{
+        width: 500px;
+    }
+    #notice{
+        width: 1500px;
     }
 
 }
