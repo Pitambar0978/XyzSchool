@@ -174,7 +174,7 @@ footer{
         display: grid;
         gap:10px;
         font-size: .9rem;
-        margin-left: 0px;
+        margin-left: 100px;
         width: auto;
     }
     .nav #navlinks{
@@ -185,7 +185,7 @@ footer{
         padding: 200px 0px 0px 20px;
     }
     .view h2{
-        width: 300px;
+        width: 350px;
         margin-left: 420px;
     }
     #notice{
@@ -196,7 +196,7 @@ footer{
         margin: 0px 50px 0px 10px;
     }
     footer{
-        margin-left: 280px;
+        margin: 200px 0px 0px 350px;
         width: 500px;
     }
 
