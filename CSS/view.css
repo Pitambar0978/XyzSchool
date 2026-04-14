@@ -110,8 +110,8 @@ footer{
         flex-wrap: wrap;
     }
     #logo{
-        width: 6%;
-        height: 6%;
+        width: 8%;
+        height: 8%;
         margin: 10px 0px 0px 50px;
     }
      #schname{
@@ -130,7 +130,11 @@ footer{
         font-size: 1.2rem;
     }
     .view{
-        padding: 200px 0px 0px 20px;
+        padding: 300px 0px 0px 20px;
+        width: 100px;
+    }
+    #list span{
+        width: 300px;
     }
 
 }
