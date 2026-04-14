@@ -133,12 +133,19 @@ footer{
         padding: 300px 0px 0px 20px;
     }
     .view h2{
-        width: 150px;
-        text-align: center;
+        width: 300px;
+        margin-left: 100px;
     }
     #notice{
-        width: 400px;
-        margin-left: 00px;
+        width: 600px;
+    }
+    #list{
+        width: 600px;
+        margin: 0px 50px 0px 30px;
+    }
+    footer{
+        margin-left: 80px;
+        width: 500px;
     }
 
 }
