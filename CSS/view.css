@@ -110,12 +110,12 @@ footer{
         flex-wrap: wrap;
     }
     #logo{
-        width: 8%;
-        height: 8%;
-        margin: 10px 0px 0px 5px;
+        width: 7%;
+        height: 7%;
+        margin: 10px 0px 0px 40px;
     }
      #schname{
-        width: 200px;
+        width: 450px;
         text-align: center;
     }
     .nav #contact{
@@ -126,7 +126,7 @@ footer{
         width: 100%;
     }
     .nav #navlinks{
-        margin: 10px 0px 10px 30px;
+        margin: 10px 0px 10px 50px;
         font-size: 1.2rem;
     }
     .view{
@@ -137,6 +137,7 @@ footer{
     }
     #notice{
         width: 1500px;
+        margin-left: 0px;
     }
 
 }
